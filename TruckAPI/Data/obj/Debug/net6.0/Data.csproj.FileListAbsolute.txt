@@ -1,0 +1,14 @@
+C:\DEV\Crud\Angular 10 + .NET 6\TruckProject\Data\bin\Debug\net6.0\Data.deps.json
+C:\DEV\Crud\Angular 10 + .NET 6\TruckProject\Data\bin\Debug\net6.0\Data.runtimeconfig.json
+C:\DEV\Crud\Angular 10 + .NET 6\TruckProject\Data\bin\Debug\net6.0\Data.dll
+C:\DEV\Crud\Angular 10 + .NET 6\TruckProject\Data\bin\Debug\net6.0\Data.pdb
+C:\DEV\Crud\Angular 10 + .NET 6\TruckProject\Data\obj\Debug\net6.0\Data.csproj.AssemblyReference.cache
+C:\DEV\Crud\Angular 10 + .NET 6\TruckProject\Data\obj\Debug\net6.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\DEV\Crud\Angular 10 + .NET 6\TruckProject\Data\obj\Debug\net6.0\Data.AssemblyInfoInputs.cache
+C:\DEV\Crud\Angular 10 + .NET 6\TruckProject\Data\obj\Debug\net6.0\Data.AssemblyInfo.cs
+C:\DEV\Crud\Angular 10 + .NET 6\TruckProject\Data\obj\Debug\net6.0\Data.csproj.CoreCompileInputs.cache
+C:\DEV\Crud\Angular 10 + .NET 6\TruckProject\Data\obj\Debug\net6.0\Data.dll
+C:\DEV\Crud\Angular 10 + .NET 6\TruckProject\Data\obj\Debug\net6.0\refint\Data.dll
+C:\DEV\Crud\Angular 10 + .NET 6\TruckProject\Data\obj\Debug\net6.0\Data.pdb
+C:\DEV\Crud\Angular 10 + .NET 6\TruckProject\Data\obj\Debug\net6.0\Data.genruntimeconfig.cache
+C:\DEV\Crud\Angular 10 + .NET 6\TruckProject\Data\obj\Debug\net6.0\ref\Data.dll

@@ -1,0 +1,48 @@
+<div class="jumbtron">
+    <h1 class="display-4 text-center font-pacifico">Truck</h1>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="panel">
+            <app-truck-form></app-truck-form>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="panel">
+            <table class="table">
+                <thead class="thead-light">
+                    <tr>
+                        <th>
+                            Placa
+                        </th>
+                        <th>
+                            Modelo
+                        </th>
+                        <th>
+                            Ano Mod.
+                        </th>
+                        <th>
+                            Ano Fab.
+                        </th>
+                        <th>
+                            Ações
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let c of service.list">
+                        <td (click)="editForm(c)" style="min-width: 100px; max-width: 100px; word-wrap: break-word;">
+                            {{c.placa}}
+                        </td>
+                        <td (click)="editForm(c)" class="text-center">{{c.modelo}}</td>
+                        <td (click)="editForm(c)" class="text-center">{{c.anoModelo}}</td>
+                        <td (click)="editForm(c)" class="text-center">{{c.anoFabricacao}}</td>
+                        <td class="text-center"><i class="far fa-trash-alt text-danger" (click)="deleteTruck(c.id)"></i>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,39 @@
+<form novalidate #form="ngForm" (submit)="onSubmit(form)">
+    <input type="hidden" name="id" [value]="service.formData.id" />
+    <div class="form-row">
+        <div class="form-group col-md-8">
+            <label>Placa</label>
+            <input class="form-control form-control-sm" placeholder="Informe a placa do caminhão" name="placa"
+                #placa="ngModel" [(ngModel)]="service.formData.placa" required [class.invalid]=" placa.invalid &&
+                placa.touched">
+        </div>
+        <div class="form-group col-md-4">
+            <label>Modelo</label>
+            <div>
+                <select class="form-control form-control-sm" name="modelo" #modelo="ngModel"
+                    [(ngModel)]="service.formData.modelo" required [class.invalid]="modelo.invalid &&
+                modelo.touched">
+                    <option *ngFor="let modelo of modelos" [ngValue]="modelo.id">{{modelo.name}}</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>Ano do Modelo</label>
+            <input class="form-control form-control-sm" type="number" name="anoModelo" #anoModelo="ngModel"
+                [(ngModel)]="service.formData.anoModelo" min="1900" max="2099" required [class.invalid]=" anoModelo.invalid &&
+                anoModelo.touched">
+        </div>
+        <div class="form-group col-md-6">
+            <label>Ano de Fabricação</label>
+            <input class="form-control form-control-sm" type="number" name="anoFabricacao" #anoFabricacao="ngModel"
+                [(ngModel)]="service.formData.anoFabricacao" min="1900" max="2099" required [class.invalid]=" anoFabricacao.invalid &&
+                anoFabricacao.touched">
+        </div>
+    </div>
+    <div class="form-group">
+        <button class="btn btn-info btn-block" type="submit" [disabled]="form.invalid">Salvar</button>
+    </div>
+
+</form>

@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+
+.form-group label{
+    color:grey;
+}
+
+.form-group input{
+    font-weight: 500;
+}
+
+.form-group input::placeholder{
+    color:#c0bdbd;
+}
+
+table tbody tr:hover{
+    background-color: #fffbf2;
+    cursor: pointer;
+}
+
+input.invalid{
+    border-color: red;
+}
+
+.panel{
+    padding: 10px;
+    border: 1px solid #c0bdbd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #FFF;
+}
+
+body{
+    background-color: rgb(183, 189, 238);
+}
+
+.font-pacifico
+{
+    font-family: 'Pacifico', cursive;
+}
